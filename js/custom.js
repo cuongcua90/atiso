@@ -93,8 +93,8 @@ if (matchMedia('(min-width: 768px) and (max-width: 991px)').matches) {
 ===  DOWNLOAD BUTTON CLICK SCROLL ==
 =================================== */
 jQuery(function( $ ){
-			$('#download-button').localScroll({
-				duration:1000
+			$('.download-button').localScroll({
+				duration: 500
 			});
 		});
 
